@@ -1,0 +1,40 @@
+# Core FastAPI requirements
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data processing (lightweight versions)
+pandas==2.1.4
+numpy==1.25.2
+
+# Visualization (lighter alternatives)
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Web scraping and requests
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.4
+
+# Environment and utilities
+python-dotenv==1.0.0
+
+# LangChain (minimal)
+langchain-core==0.1.23
+langchain-google-genai==0.0.6
+google-generativeai==0.3.2
+
+# File handling
+openpyxl==3.1.2
+
+# Basic image processing (without PIL dependencies)
+# pillow==10.1.0  # Commented out to reduce size
+
+# Network analysis (lightweight)
+networkx==3.2.1
+
+# Basic HTTP client
+httpx==0.25.2
+
+# Utilities
+tabulate==0.9.0
